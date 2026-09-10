@@ -46,8 +46,8 @@ export const bands: Band[] = [
     logo: "/images/bands/creepy_nuts.jpg",
     genre: "Hip-hop",
     members: [
-      { name: "DJ Matsunaga (DJ and Track Maker)", image: "/images/member/Creepy_Nuts/DJ_Matsunaga.jpg" },
-      { name: "R-Shitei (Rapper and MC)", image: "/images/member/Creepy_Nuts/R_Shitei.jpg" },
+      { name: "DJ Matsunaga (DJ and Track Maker)", image: "/images/member/creepy_nuts/DJ_Matsunaga.jpg" },
+      { name: "R-Shitei (Rapper and MC)", image: "/images/member/creepy_nuts/R_Shitei.jpg" },
     ],
     songs: ["Bling-Bang-Bang-Born", "Otonoke", "Nidone"],
   },
