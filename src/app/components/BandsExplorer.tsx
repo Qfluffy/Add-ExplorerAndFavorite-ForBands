@@ -6,9 +6,15 @@ import BandsCard from "./BandsCard";
 
 type BandsExplorerProps = {
     bands: Band[];
+    followedIds: number[];
+    onToggleFollow: (id: number) => void;
 };
 
-export default function BandsExplorer({ bands }: BandsExplorerProps) {
+export default function BandsExplorer({
+    bands,
+    followedIds,
+    onToggleFollow,
+}: BandsExplorerProps) {
     const [keyword, setKeyword] = useState("");
 
     function handleKeywordChange(event: ChangeEvent<HTMLInputElement>) {
@@ -40,8 +46,12 @@ export default function BandsExplorer({ bands }: BandsExplorerProps) {
             ) : (
                 <section className="">
                     {visibleBands.map((band) => (
-                        <BandsCard key={band.id} 
-                        band={band} />
+                        <BandsCard
+                            key={band.id}
+                            band={band}
+                            isFollowing={followedIds.includes(band.id)}
+                            onToggleFollow={onToggleFollow}
+                        />
                     ))}
                 </section>
             )}

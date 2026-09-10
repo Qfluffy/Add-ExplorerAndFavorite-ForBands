@@ -3,7 +3,7 @@ import { Band } from "../types/band";
 export const bands: Band[] = [
   {
     id: 1,
-    name: "AŌP",
+    name: "AOP",
     logo: "/images/bands/aop.png",
     genre: "J-Pop",
     members: [

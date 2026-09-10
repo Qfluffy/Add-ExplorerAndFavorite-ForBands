@@ -13,7 +13,7 @@ export default function CoursesPage() {
     <>
       <main>
         <CourseExplorer courses={courses} />
-      </main>  
+      </main> 
 
       {/* <div className="p-4">
         {courses.map((course, index) => (
