@@ -40,4 +40,15 @@ export const bands: Band[] = [
     ],
     songs: ["SPECIALZ", "AIZO", "SAKAYUME"],
   },
+  {
+    id: 4,
+    name: "Creepy Nuts",
+    logo: "/images/bands/creepy_nuts.jpg",
+    genre: "Hip-hop",
+    members: [
+      { name: "DJ Matsunaga (DJ and Track Maker)", image: "/images/member/Creepy_Nuts/DJ_Matsunaga.jpg" },
+      { name: "R-Shitei (Rapper and MC)", image: "/images/member/Creepy_Nuts/R_Shitei.jpg" },
+    ],
+    songs: ["Bling-Bang-Bang-Born", "Otonoke", "Nidone"],
+  },
 ];
